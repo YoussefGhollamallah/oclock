@@ -8,10 +8,10 @@ let chrono = document.getElementById("chronometre");
 
 function refresh() {
     const t = 500;
-    setTimeout(showChrono, t);
+    setTimeout(startChrono, t);
 }
 
-function showChrono() {
+function startChrono() {
     s++;
 
     if (s == 60) {
@@ -41,4 +41,4 @@ function showChrono() {
 let startBtn = document.querySelector('#start')
 
 
-startBtn.addEventListener("click", showChrono)
+startBtn.addEventListener("click", startChrono)
