@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Alarme</title>
+</head>
+<body>
+    <header>
+        <h1>Alarme</h1>
+    </header>
+    <main class="horloge">
+        <p id="horloge"></p>
+
+        <div class="set-alarm">
+            <input type="time" id="alarmTime" placeholder="--:--">
+            <button onclick="setAlarm()">Programmer</button>
+        </div>
+
+        <div class="alarms">
+            <h4>Alarmes à venir :</h4>
+            <ul id="upcomingAlarms"></ul>
+        </div>
+
+        <div class="alarms">
+            <h4>Alarmes passées :</h4>
+            <ul id="pastAlarms"></ul>
+        </div>
+
+        <nav>
+            <ul class="navLinks">
+                <li class="navItems"><a href="../../index.html">Retour au menu</a></li>
+            </ul>
+        </nav>
+    </main>
+    <script src="../js/app.js"></script>
+</body>
+</html>

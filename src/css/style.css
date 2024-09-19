@@ -46,3 +46,58 @@ main {
 .navItems:hover {
     background-color: yellowgreen;
 }
+
+.horloge {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#horloge {
+    font-size: 10rem;
+}
+
+.set-alarm {
+    margin: 20px 0;
+}
+
+input[type="time"] {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: #f1c40f;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4ac0d;
+}
+
+.alarms {
+    margin-top: 20px;
+}
+
+.alarms h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.alarms ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alarms ul li {
+    font-size: 20px;
+    margin: 5px 0;
+}
