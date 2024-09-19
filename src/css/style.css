@@ -73,6 +73,7 @@ input[type="time"] {
 button {
     padding: 10px 20px;
     font-size: 20px;
+    border-radius: 5px;
     background-color: #f1c40f;
     color: #333;
     border: none;
@@ -100,4 +101,13 @@ button:hover {
 .alarms ul li {
     font-size: 20px;
     margin: 5px 0;
+}
+
+.chronometre {
+    display: flex;
+    flex-direction: column;
+}
+
+#chronometre {
+    text-align: center;
 }
