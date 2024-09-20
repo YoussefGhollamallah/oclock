@@ -111,3 +111,17 @@ button:hover {
 #chronometre {
     text-align: center;
 }
+
+.minuteur {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-timer {
+    margin-top: 10px;
+}
+
+#display {
+    text-align: center;
+    font-size: 4.5rem;
+}
